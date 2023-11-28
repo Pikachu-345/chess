@@ -1,0 +1,33 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+body{
+      height: 100%;
+      width: 100%;
+}
+.container-palette{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+.chess-mat{
+      border: 1px solid black;
+      display: grid;
+      grid-template-columns: repeat(8,9vh);
+      width: auto;
+      height: fit-content;
+}
+.box-black{
+      height: 9vh;
+      border:1px solid black;
+      width: 9vh;
+      background-color: #807f7f;
+}
+.box-white{
+      height: 9vh;
+      border:1px solid black;
+      width: 9vh;
+}
