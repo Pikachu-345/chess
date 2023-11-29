@@ -20,6 +20,9 @@ body{
       width: auto;
       height: fit-content;
 }
+.chess-mat img{
+      width: 9vh;
+}
 .box-black{
       height: 9vh;
       border:1px solid black;
